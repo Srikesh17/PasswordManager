@@ -1,0 +1,62 @@
+.passwordItem {
+  list-style-type: none;
+}
+
+.passwordItem-container {
+  width: 280px;
+  border: 1px solid #7683cb;
+  border-radius: 6px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.passwordItem-Logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #0b69ff;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passwordItem-content {
+  margin-left: 15px;
+  flex-grow: 1;
+}
+
+.passwordItem-content h1 {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
+
+.passwordItem-content p {
+  color: white;
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.hidden-pass-img {
+  width: 120px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-img {
+  width: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .passwordItem-container {
+    width: 100%;
+  }
+}
